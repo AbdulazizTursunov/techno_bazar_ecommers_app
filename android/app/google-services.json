@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974520375382",
+    "project_id": "practics-221de",
+    "storage_bucket": "practics-221de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974520375382:android:c220192acf288df79243f7",
+        "android_client_info": {
+          "package_name": "com.practics.sam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974520375382-6rsbl899dgjfv76g4nhrvjrt35cou23b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPP2ZyVw53xwb3m5i2Ii486_9sBdyboT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974520375382-6rsbl899dgjfv76g4nhrvjrt35cou23b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
