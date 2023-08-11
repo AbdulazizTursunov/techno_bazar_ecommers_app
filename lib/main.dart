@@ -8,6 +8,8 @@ import 'package:untitled10/notification_services/local_notification.dart';
 import 'package:untitled10/provider/providerFcmLocal.dart';
 import 'package:untitled10/ui_notification/ui_notification.dart';
 
+import 'location/user_location.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -36,7 +38,7 @@ class MainApp extends StatelessWidget {
         builder: (context,child){
         return const MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: PushNotification());
+            home: MapSample());
     }
     );
   }
