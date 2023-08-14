@@ -16,16 +16,16 @@ dependencies:
   change_app_package_name: ^1.1.0
   cupertino_icons: ^1.0.2
   firebase_core: ^2.15.0
-  cloud_firestore: ^4.8.3
-  firebase_storage: ^11.2.5
-  firebase_auth: ^4.7.1
-  firebase_analytics: ^10.4.4
-  google_sign_in: ^6.1.4
-  image_picker: ^1.0.1
-  shimmer: ^3.0.0
-  like_button: ^2.0.5
-  webview_flutter: ^4.2.2
-  cached_network_image: ^3.2.3
+#  cloud_firestore: ^4.8.3
+#  firebase_storage: ^11.2.5
+#  firebase_auth: ^4.7.1
+#  firebase_analytics: ^10.4.4
+#  google_sign_in: ^6.1.4
+#  image_picker: ^1.0.1
+#  shimmer: ^3.0.0
+#  like_button: ^2.0.5
+#  webview_flutter: ^4.2.2
+#  cached_network_image: ^3.2.3
   flutter_screenutil: ^5.8.4
   fluttertoast: ^8.2.2
   firebase_messaging: ^14.6.5

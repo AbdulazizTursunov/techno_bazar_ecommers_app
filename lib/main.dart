@@ -1,14 +1,11 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:provider/provider.dart';
-import 'package:untitled10/model/local_database.dart';
 import 'package:untitled10/notification_services/local_notification.dart';
-import 'package:untitled10/provider/providerFcmLocal.dart';
-import 'package:untitled10/ui_notification/ui_notification.dart';
-
-import 'location/user_location.dart';
+import 'location/google_map_provider/map_provider.dart';
+import 'location/ui/location_map/current_location.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,11 +17,10 @@ Future<void> main() async {
 
 
   runApp(
-   ChangeNotifierProvider(create: (context)=> ProviderFcm(),
+   ChangeNotifierProvider(create: (context)=> MapProvider(),
    child:  MainApp()),
   );
 }
-
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
@@ -38,7 +34,7 @@ class MainApp extends StatelessWidget {
         builder: (context,child){
         return const MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: MapSample());
+            home: CurrentLocationScreen());
     }
     );
   }
